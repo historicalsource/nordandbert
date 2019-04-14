@@ -1032,7 +1032,7 @@ The kitchen is equipped with, among other crude devices, a grindstone.">)
 	(DESC "cook")
 	(LDESC "The hulking, ill-mannered cook stands here.")
 	(SYNONYM COOK)
-	(FLAGS ACTORBIT DESC-IN-ROOMBIT CONTBIT OPENBIT SEARCHBIT NO-D-CONT)
+	(FLAGS ACTORBIT DESC-IN-ROOMBIT CONTBIT OPENBIT SEARCHBIT ;NO-D-CONT)
 	(ACTION COOK-F)>
 
 ;"phrasebit = turn cook into a laughing stock"

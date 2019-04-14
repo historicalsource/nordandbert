@@ -961,8 +961,6 @@ Act the Part, Visit the Manor of Speaking, or Shake a Tower."
 
 <GLOBAL SCENE <>>
 
-;<GLOBAL MAYOR-TOLD <>>
-
 <GLOBAL RECORDS-SHOW <>>
 
 <ROUTINE START-OBJ-F ("AUX" OBJ (CNT 0))
@@ -1087,7 +1085,10 @@ could be dramatically rectified, the spirits who've worn out their welcome
 might flee in horror. This is our hope, may it be your quest." CR CR> 
 		       <GO-TO-SCENE ,DUELING>)
 		      (<NOUN-USED ,START-OBJ ,W?MAYOR>
-		       <COND (<FSET? ,SQUARE ,TOUCHBIT>
+		       <COND (<NOT <EQUAL? ,HERE ,STARTING-ROOM>>
+			      <TELL ,MUST-GO-BEGIN>
+			      <RTRUE>)
+			     (<FSET? ,SQUARE ,TOUCHBIT>
 			      <FCLEAR ,SQUARE ,TOUCHBIT>
 			      <SETG HINT-TBL ,EIGHT-HINTS>
 			      <MOVE ,DECREE ,PROTAGONIST>
@@ -1353,8 +1354,7 @@ relaxed and your eyelids are buffeted with sand from the cloud." CR CR>
 		<TELL ,ARRIVED>
 		<RTRUE>)
 	       (<NOT <EQUAL? ,HERE ,STARTING-ROOM>>
-		<TELL
-"You must first go to the BEGINNING before playing another scenario." CR>
+		<TELL ,MUST-GO-BEGIN>
 		<RTRUE>)
 	       (<FSET? .SECTION ,WONBIT>
 		<TELL 
@@ -1688,104 +1688,6 @@ NO DANGER! THICK ICE|">)>)
 	       (<AND <VERB? THROW>
 		     <PRSI? ,STAIRS>>
 		<WASTES>)>>
-
-;<OBJECT WINDOW
-	(LOC LOCAL-GLOBALS)
-	(DESC "window")
-	(SYNONYM WINDOW VIEWPORT GLASS)
-	(ADJECTIVE RECTAN STAINED GLASS BARRED SMALL GRIMY)
-	(ACTION WINDOW-F)>
-
-;<ROUTINE WINDOW-F ()
-	 <COND (<VERB? LOOK-INSIDE>
-		<COND (<EQUAL? ,HERE ,OBSERVATION-ROOM>
-		       <SETG SEEN-EXAMINATION-ROOM T>
-		       <TELL ,YOU-SEE " a large room below. ">
-		       <EXAMINATION-ROOM-DESC T>)
-		      (<EQUAL? ,HERE ,BEDROOM>
-		       <MOVE ,FORD ,HERE>
-		       <COND (<FSET? ,HEADLIGHT ,TRYTAKEBIT>
-			      <MOVE ,HEADLIGHT ,HERE>)>
-		       <MOVE ,FORD ,HERE>
-		       <TELL
-"A car is parked on the street, twenty feet below. It's a Ford, a 1933 Ford
-... and one of its " 'HEADLIGHT "s is ">
-		       <COND (<AND <IN? ,HEADLIGHT ,HERE>
-				   <FSET? ,HEADLIGHT ,TRYTAKEBIT>>
-			      <TELL "loose">)
-			     (T
-			      <TELL "missing">)>
-		       <TELL ,PERIOD>)
-		      (<EQUAL? ,HERE ,HOLD>
-		       <TELL ,YOU-SEE " Saturn and her ample rings.">
-		       <COND (<NOT <EQUAL? ,SPACESHIP-SCENE-STATUS 1>>
-			      <TELL
-" Much closer, no more than a hundred feet away, is"
-A ,PASSENGER-SHIP ". Judging by the steam blowing from
-her ion engines, she's preparing to depart.">)>
-		       <CRLF>)
-		      (<EQUAL? ,HERE ,JOES-BAR>
-		       <TELL
-"It's raw and blowy outside. Little whirlpools of dust dance by." CR>)
-		      (<EQUAL? ,HERE ,SOUTH-POLE>
-		       <COND (<FSET? ,ORPHANAGE-FOYER ,TOUCHBIT>
-			      <TELL "The window is fogged." CR>)
-			     (T
-		       	      <SETG COTTON-BALLS-SEEN T>
-			      <MOVE ,COTTON-BALLS ,HERE> ;"so you can refer"
-			      <TELL
-,YOU-SEE " a " 'COTTON-BALLS " sitting in an entrance foyer." CR>)>)
-		      (<EQUAL? ,HERE ,ORPHANAGE-FOYER>
-		       <TELL ,YOU-SEE " an icy plain." CR>)
-		      (<EQUAL? ,HERE ,MAIN-HALL-OF-PALACE>
-		       <TELL "Colored light spills through the window." CR>)>)
-	       (<VERB? OPEN>
-		<COND (<EQUAL? ,HERE ,BEDROOM>
-		       <TELL ,ALREADY-IS>)
-		      (T
-		       <TELL "It's not that kind of window." CR>)>)
-	       (<VERB? CLOSE>
-		<COND (<EQUAL? ,HERE ,BEDROOM>
-		       <TELL "It seems stuck." CR>)
-		      (T
-		       <TELL ,ALREADY-IS>)>)
-	       (<AND <VERB? PUT-THROUGH PUT>
-		     <PRSI? ,WINDOW>
-		     <EQUAL? ,HERE ,BEDROOM>>
-		<COND (<PRSO? ,HANDS>
-		       <TELL ,HUH>)
-		      (<IN? ,PROTAGONIST ,BED>
-		       <CANT-REACH ,PRSI>)
-		      (<AND <PRSO? ,SHEET>
-			    <OR ,SHEET-HANGING
-				,SHEET-TIED>>
-		       <RFALSE> ;"SHEET-F handles it")
-		      (T
-		       <REMOVE ,PRSO>
-		       <PRONOUN>
-		       <TELL " land">
-		       <COND (<NOT <FSET? ,PRSO ,PLURALBIT>>
-			      <TELL "s">)>
-		       <TELL
-" on the street below. An urchin dashes up and runs off with" TR ,PRSO>)>)
-	       (<AND <VERB? EMPTY-FROM>
-		     <PRSI? ,WINDOW>
-		     <EQUAL? ,HERE ,BEDROOM>>
-		<PERFORM ,V?EMPTY ,PRSO ,WINDOW>
-		<RTRUE>) 
-	       (<VERB? ENTER EXIT DISEMBARK LEAP-OFF>
-		<COND (<EQUAL? ,HERE ,BEDROOM>
-		       <COND (,SHEET-HANGING
-			      <PERFORM ,V?CLIMB-DOWN ,SHEET>
-			      <RTRUE>)
-			     (T
-		       	      <PLUMMET-TO-PAVEMENT>)>)
-		      (<EQUAL? ,HERE ,SOUTH-POLE ,ORPHANAGE-FOYER>
-		       <TELL "It's barred!" CR>)
-		      (<EQUAL? ,HERE ,OBSERVATION-ROOM>
-		       <DO-WALK ,P?WEST>)
-		      (T
-	               <DO-FIRST "open" ,WINDOW>)>)>>
 
 ;"status line stuff"
 
@@ -2337,3 +2239,6 @@ entitled \"Communicating With Infocom's Interactive Fiction.\"]" CR>>
 <GLOBAL STANDS-STILL ", but stands still and silent as the mountain air.|">
 
 <GLOBAL NO-SALE "That's not for sale.|">
+
+<GLOBAL MUST-GO-BEGIN 
+"You must first go to the BEGINNING before playing another scenario.|">

@@ -10,7 +10,7 @@
 	(LOC LOCAL-GLOBALS)
 	(DESC "place")
 	(PICK-IT "Meet the Mayor")
-	(MAX-SCORE 14)
+	(MAX-SCORE 14) ;"total 140 points possible"
 	(SCENE-SCORE 0)
 	(SCENE-ROOM SQUARE)
 	(SCENE-CUR 0)

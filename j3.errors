@@ -1,0 +1,29 @@
+Assembling J3.ZAP.105 on Wednesday, July 22, 1987 13:32:38
+Release: 20
+
+    64	Inserting J3FREQ.ZAP.3	   (610 bytes)
+   674	Inserting J3DAT.ZAP.99	 (30800 bytes)
+ 31474	Inserting TELLS.ZAP.125	  (5027 bytes)
+ 36501	Inserting PARSER.ZAP.121	  (7878 bytes)
+ 44379	Inserting SYNTAX.ZAP.118	     (0 bytes)
+ 44379	Inserting VERBS.ZAP.127	 (17144 bytes)
+ 61523	Inserting J3PUR.ZAP.95	  (1568 bytes)
+ 63091	Inserting GLOBALS.ZAP.124	 (11730 bytes)
+ 74821	Inserting INVIS.ZAP.106	   (988 bytes)
+ 75809	Inserting HAZING.ZAP.106	 (15534 bytes)
+ 91343	Inserting DUELING.ZAP.105	  (6126 bytes)
+ 97469	Inserting AISLE.ZAP.101	  (8004 bytes)
+105473	Inserting NORTH.ZAP.101	  (6951 bytes)
+112424	Inserting FARM.ZAP.101	 (11332 bytes)
+123756	Inserting RESTAURANT.ZAP.104	 (11409 bytes)
+135165	Inserting COMEDY.ZAP.100	  (7432 bytes)
+142597	Inserting EIGHT.ZAP.99	  (9174 bytes)
+151771	Inserting J3STR.ZAP.95	 (18527 bytes)
+286 objects.
+193 globals.
+1230 word vocabulary.
+
+170298 bytes (167K).
+ 31474 bytes of preload.
+ 14854 bytes of impure.
+Outputting symbol tables

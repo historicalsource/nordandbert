@@ -113,7 +113,7 @@ the curser and text"
 	 <SCREEN ,S-WINDOW>
 	 <CURSET 1 1>
 	 <INVERSE-LINE>
-	 <CENTER-LINE 1 "INVISICLUES" %<LENGTH "INVISICLUES">>
+	 <CENTER-LINE 1 "INVISICLUES (tm)" %<LENGTH "INVISICLUES (tm)">>
 	 <CURSET 3 1>
 	 <INVERSE-LINE>
 	 <COND (,WIDE
@@ -650,6 +650,7 @@ the curser and text"
 		 "LIGHT THE MATCH"
 		 "PUT THE MATCH IN BOB'S SHOE">
 	 <PLTABLE "The Sponge"
+		 "It is clearly ambiguous."
 		 "There's more than one sponge here."
 		 "Refer to Bob as a sponge.">>>
 
@@ -667,7 +668,7 @@ the curser and text"
 	 <INVERSE-LINE>
 	 <CURSET 3 1>
 	 <INVERSE-LINE>
-	 <CENTER-LINE 1 "INVISICLUES" 11>
+	 <CENTER-LINE 1 "INVISICLUES (tm)" 16>
 	 <LEFT-LINE 2 " N = next">
 	 <RIGHT-LINE 2 "P = previous" %<LENGTH "P = previous">>
 	 <LEFT-LINE 3 " RETURN = See hint">

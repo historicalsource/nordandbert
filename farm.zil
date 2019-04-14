@@ -1621,5 +1621,6 @@ as carefully as you would an apple from the bottom of the stack.\"" CR>)
 "Visibly perturbed, the stacked apples begin to tremble and quake, until
 one apple heaves up out of the pile and into the air. Your horsey
 companion eyeballs the apple, bares his teeth, tilts back his
-long mane, and catches it. He loudly chomps it into a pulp, and swallows">)>
+long mane, and catches it. He loudly chomps it into a pulp, and swallows
+very hard">)>
 		<TELL ,PERIOD>)>>

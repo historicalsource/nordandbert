@@ -1,0 +1,929 @@
+
+Combined ZIL Compiler Ver 2.0 (MIM)
+-----------------------------------
+Input file: PS:<J3>J3.ZIL.38
+Input file: PS:<J3>TELLS.ZIL.171
+Compiling routine: PICK-NEXT
+Compiling routine: PICK-ONE
+Compiling routine: DPRINT
+Compiling routine: APRINT
+Compiling routine: TPRINT
+Compiling routine: TPRINT-PRSO
+Compiling routine: TPRINT-PRSI
+Compiling routine: ARPRINT
+Compiling routine: TRPRINT
+Compiling routine: IS-ARE-PRINT
+Compiling routine: GO
+Compiling routine: GET-KEY
+Compiling routine: MAIN-LOOP
+Compiling routine: MAIN-LOOP-1
+Compiling routine: DONT-ALL
+Compiling routine: CLOCKER-VERB?
+Compiling routine: FAKE-ORPHAN
+Compiling routine: NOW-PRSI-KLUDGE
+Compiling routine: PERFORM-PRSA
+Compiling routine: PERFORM
+Compiling routine: D-APPLY
+Compiling routine: DEQUEUE
+Compiling routine: QUEUED?
+Compiling routine: RUNNING?
+Compiling routine: QUEUE
+Compiling routine: CLOCKER
+Compiling routine: STATUS-LINE
+Compiling routine: SAY-HERE
+Compiling routine: SAY-SCORE
+Compiling routine: TELL-SCORE
+Compiling routine: LIST-ALL-ROOMS
+Compiling routine: COMEDY-ROOMS
+Compiling routine: HAZING-ROOMS
+Compiling routine: TO-CLEARING?
+Compiling routine: FARM-ROOMS
+Compiling routine: RESTAURANT-ROOMS
+Compiling routine: JOAT-ROOMS
+Compiling routine: AISLE-ROOMS
+Compiling routine: DUELING-ROOMS
+Compiling routine: EIGHT-ROOMS
+Compiling routine: I-WIFE
+Input file: PS:<J3>PARSER.ZIL.177
+Compiling routine: THIS-IS-IT
+Compiling routine: PARSER
+Compiling routine: DOLDRUMS-WORD?
+Compiling routine: CHANGE-LEXV
+Compiling routine: STUFF
+Compiling routine: INBUF-STUFF
+Compiling routine: INBUF-ADD
+Compiling routine: WT?
+Compiling routine: CLAUSE
+Compiling routine: NUMBER?
+Compiling routine: ORPHAN-MERGE
+Compiling routine: ACLAUSE-WIN
+Compiling routine: NCLAUSE-WIN
+Compiling routine: WORD-PRINT
+Compiling routine: UNKNOWN-WORD
+Compiling routine: CANT-USE
+Compiling routine: SYNTAX-CHECK
+Compiling routine: VERB-PRINT
+Compiling routine: ORPHAN
+Compiling routine: CLAUSE-PRINT
+Compiling routine: BUFFER-PRINT
+Compiling routine: NAME?
+Compiling routine: CAPITALIZE
+Compiling routine: PREP-PRINT
+Compiling routine: CLAUSE-COPY
+Compiling routine: CLAUSE-ADD
+Compiling routine: PREP-FIND
+Compiling routine: SYNTAX-FOUND
+Compiling routine: GWIM
+Compiling routine: SNARF-OBJECTS
+Compiling routine: BUT-MERGE
+Compiling routine: SNARFEM
+Compiling routine: ADJ-CHECK
+Compiling routine: NOUN-MISSING
+Compiling routine: GET-OBJECT
+Compiling routine: PUT-ADJ-NAM
+Compiling routine: MOBY-FIND
+Compiling routine: WHICH-PRINT
+Compiling routine: GLOBAL-CHECK
+Compiling routine: DO-SL
+Compiling routine: SEARCH-LIST
+Compiling routine: OBJ-FOUND
+Compiling routine: TAKE-CHECK
+Compiling routine: ITAKE-CHECK
+Compiling routine: MANY-CHECK
+Compiling routine: THIS-IT?
+Input file: PS:<J3>SYNTAX.ZIL.260
+Input file: PS:<J3>VERBS.ZIL.802
+Compiling routine: V-VERBOSE
+Compiling routine: V-BRIEF
+Compiling routine: V-SUPER-BRIEF
+Compiling routine: V-SAVE
+Compiling routine: V-RESTORE
+Compiling routine: V-SCRIPT
+Compiling routine: V-UNSCRIPT
+Compiling routine: CORP-NOTICE
+Compiling routine: V-DIAGNOSE
+Compiling routine: V-INVENTORY
+Compiling routine: V-QUIT
+Compiling routine: V-RESTART
+Compiling routine: DO-YOU-WISH
+Compiling routine: YES?
+Compiling routine: FINISH
+Compiling routine: V-VERSION
+Compiling routine: V-$ID
+Compiling routine: V-$VERIFY
+Compiling routine: V-$REFRESH
+Compiling routine: V-ALARM
+Compiling routine: V-APPLAUD
+Compiling routine: V-ASK-ABOUT
+Compiling routine: V-ASK-FOR
+Compiling routine: V-ASK-NO-ONE-FOR
+Compiling routine: V-BEND
+Compiling routine: V-BITE
+Compiling routine: V-BLESS
+Compiling routine: V-BLOW
+Compiling routine: PRE-BOARD
+Compiling routine: V-BOARD
+Compiling routine: V-BOO
+Compiling routine: V-BURN
+Compiling routine: V-BURY
+Compiling routine: V-BUY
+Compiling routine: V-BUY-IN
+Compiling routine: V-BUY-WITH
+Compiling routine: V-CALL
+Compiling routine: V-CATCH
+Compiling routine: V-CHASTISE
+Compiling routine: V-CHEER
+Compiling routine: V-CHOO
+Compiling routine: V-CLEAN
+Compiling routine: V-CLEAN-IN
+Compiling routine: V-CLIMB
+Compiling routine: V-CLIMB-DOWN
+Compiling routine: V-CLIMB-ON
+Compiling routine: V-CLIMB-OVER
+Compiling routine: V-CLIMB-UP
+Compiling routine: V-CLOSE
+Compiling routine: V-COMB
+Compiling routine: V-COOK
+Compiling routine: V-COUNT
+Compiling routine: V-CRAWL
+Compiling routine: V-CRAWL-UNDER
+Compiling routine: V-CROSS
+Compiling routine: V-CRY
+Compiling routine: V-CUT
+Compiling routine: V-DECODE
+Compiling routine: V-DEEP-SIX
+Compiling routine: V-DEFLATE
+Compiling routine: V-DIG
+Compiling routine: V-DISEMBARK
+Compiling routine: V-DRINK
+Compiling routine: V-DRINK-FROM
+Compiling routine: V-DROP
+Compiling routine: SPECIAL-DROP
+Compiling routine: V-EAT
+Compiling routine: V-EMPTY
+Compiling routine: V-EMPTY-FROM
+Compiling routine: V-ENTER
+Compiling routine: V-EXAMINE
+Compiling routine: NOTHING-INTERESTING
+Compiling routine: V-EXIT
+Compiling routine: IN-EXITABLE-VEHICLE?
+Compiling routine: V-FEED
+Compiling routine: V-FILL
+Compiling routine: V-FIND
+Compiling routine: V-FOLLOW
+Compiling routine: I-FOLLOW
+Compiling routine: PRE-GIVE
+Compiling routine: V-GARBLE
+Compiling routine: V-GIVE
+Compiling routine: GIVE-TO-MURDERER
+Compiling routine: GIVE-TO-ROCKS
+Compiling routine: GIVE-TO-CLIENT
+Compiling routine: GIVE-TO-SELLER
+Compiling routine: V-GIVE-UP
+Compiling routine: V-GOOSE
+Compiling routine: V-GRIND
+Compiling routine: V-HAIR
+Compiling routine: V-HAMMER
+Compiling routine: V-HELLO
+Compiling routine: V-HIDE
+Compiling routine: V-HINTS-NO
+Compiling routine: V-IN
+Compiling routine: V-INFLATE
+Compiling routine: V-KICK
+Compiling routine: V-KILL
+Compiling routine: V-KISS
+Compiling routine: V-KNOCK
+Compiling routine: V-KNOCK-OFF
+Compiling routine: V-LEAP
+Compiling routine: V-LEAP-OFF
+Compiling routine: V-LEAVE
+Compiling routine: V-LEAVE-TO
+Compiling routine: V-LET-OUT
+Compiling routine: V-LIE-DOWN
+Compiling routine: V-LISTEN
+Compiling routine: V-LOCK
+Compiling routine: V-LOOK
+Compiling routine: V-LOOK-BEHIND
+Compiling routine: V-LOOK-DOWN
+Compiling routine: V-LOOK-INSIDE
+Compiling routine: V-LOOK-OBJECT-IN
+Compiling routine: V-LOOK-OVER
+Compiling routine: V-LOOK-UNDER
+Compiling routine: V-LOOK-UP
+Compiling routine: V-LOWER
+Compiling routine: V-MAKE
+Compiling routine: V-MAKE-OBJECT-DRINK
+Compiling routine: V-MAKE-WITH
+Compiling routine: V-MEET
+Compiling routine: V-MOVE
+Compiling routine: V-MUNG
+Compiling routine: V-NO
+Compiling routine: V-NO-VERB
+Compiling routine: I-ORPHAN
+Compiling routine: NO-WORD
+Compiling routine: V-OFF
+Compiling routine: V-ON
+Compiling routine: CANT-TURN
+Compiling routine: V-OPEN
+Compiling routine: V-PASS
+Compiling routine: V-PAY
+Compiling routine: V-PICK
+Compiling routine: V-PICK-UP
+Compiling routine: V-PIN
+Compiling routine: V-PLAY
+Compiling routine: V-PLUG
+Compiling routine: V-POINT
+Compiling routine: V-POSSESSION
+Compiling routine: PRE-POUR
+Compiling routine: V-POUR
+Compiling routine: V-PULL-OVER
+Compiling routine: V-PUSH
+Compiling routine: V-PUSH-DIR
+Compiling routine: V-PUSH-OFF
+Compiling routine: PRE-PUT
+Compiling routine: V-PUT
+Compiling routine: V-PUT-AGAINST
+Compiling routine: V-PUT-BEHIND
+Compiling routine: V-PUT-IN-FRONT
+Compiling routine: V-PUT-NEAR
+Compiling routine: V-PUT-ON
+Compiling routine: V-PUT-THROUGH
+Compiling routine: V-PUT-TO
+Compiling routine: V-PUT-UNDER
+Compiling routine: V-RAISE
+Compiling routine: PRE-RAKE
+Compiling routine: V-RAKE
+Compiling routine: V-RAKE-OVER
+Compiling routine: V-SRIDE-OBJECT-TO
+Compiling routine: V-RIDE-OBJECT-TO
+Compiling routine: V-RIDE-TO
+Compiling routine: V-REACH-IN
+Compiling routine: V-READ
+Compiling routine: V-READ-BETWEEN
+Compiling routine: V-SREAD-TO
+Compiling routine: V-READ-TO
+Compiling routine: V-REMOVE
+Compiling routine: V-REVOLVE
+Compiling routine: V-RETURN
+Compiling routine: V-RIDDLE
+Compiling routine: V-ROLL
+Compiling routine: V-RUB
+Compiling routine: V-SAVE-SOMETHING
+Compiling routine: V-SAY
+Compiling routine: V-SCORE
+Compiling routine: V-SEARCH
+Compiling routine: V-SSEARCH-OBJECT-FOR
+Compiling routine: V-SEARCH-OBJECT-FOR
+Compiling routine: V-SEARCH-WITH
+Compiling routine: V-SSET
+Compiling routine: PRE-SET
+Compiling routine: V-SET
+Compiling routine: V-SGIVE
+Compiling routine: V-SHAKE
+Compiling routine: V-SHAKE-WITH
+Compiling routine: V-SHINE
+Compiling routine: V-SHOCK
+Compiling routine: V-SHOW
+Compiling routine: V-SHUT-UP
+Compiling routine: V-SIGN
+Compiling routine: V-SINK
+Compiling routine: V-SIT
+Compiling routine: V-SKIP
+Compiling routine: V-SLEEP
+Compiling routine: V-SMELL
+Compiling routine: V-SOW
+Compiling routine: SENSE-OBJECT
+Compiling routine: V-SPUT-ON
+Compiling routine: V-SRUB
+Compiling routine: V-SSHOW
+Compiling routine: V-STAND
+Compiling routine: V-STAND-ON
+Compiling routine: V-STELL
+Compiling routine: V-STHROW
+Compiling routine: V-SWIM
+Compiling routine: V-SWING
+Compiling routine: PRE-SWITCH
+Compiling routine: V-SWRAP
+Compiling routine: PRE-TAKE
+Compiling routine: V-TAKE
+Compiling routine: V-TAKE-OFF
+Compiling routine: V-TAKE-UNDER
+Compiling routine: V-TAKE-WITH
+Compiling routine: V-TASTE
+Compiling routine: V-STEACH
+Compiling routine: V-TEACH
+Compiling routine: PRE-TELL
+Compiling routine: V-TELL
+Compiling routine: V-TELL-ABOUT
+Compiling routine: V-THANK
+Compiling routine: V-THROW
+Compiling routine: V-THROW-OUT
+Compiling routine: V-THROW-TO
+Compiling routine: V-TIE
+Compiling routine: V-TIE-TOGETHER
+Compiling routine: PRE-TOUCH
+Compiling routine: V-STOUCH
+Compiling routine: V-TOUCH
+Compiling routine: V-TURN-OBJECT-ON
+Compiling routine: V-UNLOCK
+Compiling routine: V-UNPLUG
+Compiling routine: V-UNTIE
+Compiling routine: V-UPSET
+Compiling routine: V-USE
+Compiling routine: V-VENT
+Compiling routine: V-WALK
+Compiling routine: V-WATCH-GROW
+Compiling routine: NOT-GOING-ANYWHERE
+Compiling routine: V-WALK-AROUND
+Compiling routine: PRE-WALK-TO
+Compiling routine: V-WALK-TO
+Compiling routine: CANT-GET-THERE
+Compiling routine: V-WAIT
+Compiling routine: V-WAIT-FOR
+Compiling routine: V-WAVE
+Compiling routine: PRE-WEAR
+Compiling routine: V-WEAR
+Compiling routine: V-WHAT
+Compiling routine: V-WHERE
+Compiling routine: V-WHO
+Compiling routine: V-WRAP
+Compiling routine: V-YELL
+Compiling routine: I-REPLY
+Compiling routine: V-YES
+Compiling routine: YOU-SOUND
+Compiling routine: YES-WORD
+Compiling routine: ITAKE
+Compiling routine: IDROP
+Compiling routine: CCOUNT
+Compiling routine: WEIGHT
+Compiling routine: D-ROOM
+Compiling routine: D-OBJECTS
+Compiling routine: D-CONTENTS
+Compiling routine: DESCRIBABLE?
+Compiling routine: SIMPLE-DESC?
+Compiling routine: D-VEHICLE
+Compiling routine: D-NOTHING
+Compiling routine: GOTO
+Compiling routine: JIGS-UP
+Compiling routine: ACCESSIBLE?
+Compiling routine: VISIBLE?
+Compiling routine: UNTOUCHABLE?
+Compiling routine: META-LOC
+Compiling routine: OTHER-SIDE
+Compiling routine: HELD?
+Compiling routine: SEE-INSIDE?
+Compiling routine: GLOBAL-IN?
+Compiling routine: FIND-IN
+Compiling routine: LOC-CLOSED
+Compiling routine: DO-WALK
+Compiling routine: STOP
+Compiling routine: ROB
+Compiling routine: HACK-HACK
+Compiling routine: HO-HUM
+Compiling routine: YUKS
+Compiling routine: IMPOSSIBLES
+Compiling routine: WASTES
+Input file: PS:<J3>GLOBALS.ZIL.996
+Compiling routine: INTNUM-F
+Compiling routine: EACH-OTHER-F
+Compiling routine: MAN-WOMAN-F
+Compiling routine: FIND-MAN
+Compiling routine: FIND-WOMAN
+Compiling routine: NOT-HERE-OBJECT-F
+Compiling routine: PRSO-MOBY-VERB?
+Compiling routine: PRSI-MOBY-VERB?
+Compiling routine: FIND-NOT-HERE
+Compiling routine: NOT-HERE-PRINT
+Compiling routine: GLOBAL-SLEEP-F
+Compiling routine: GROUND-F
+Compiling routine: WALL-F
+Compiling routine: CEILING-F
+Compiling routine: WATER-F
+Compiling routine: HANDS-F
+Compiling routine: FOOT-F
+Compiling routine: HEAD-F
+Compiling routine: SHOULDER-F
+Compiling routine: SPLEEN-F
+Compiling routine: EYES-F
+Compiling routine: MOUTH-F
+Compiling routine: STARTING-ROOM-F
+Compiling routine: SHERIFF-ASKS
+Compiling routine: START-OBJ-F
+Compiling routine: I-RANK
+Compiling routine: RANKS-F
+Compiling routine: YES-RIGHT
+Compiling routine: TO-MAYOR?
+Compiling routine: GO-TO-SCENE
+Compiling routine: RE-BEGIN
+Compiling routine: FINISHED?
+Compiling routine: UPDATE-SCORE
+Compiling routine: I-END-SCENE
+Compiling routine: DO-JACK
+Compiling routine: DE-LOUSE
+Compiling routine: WARN-PLAYER
+Compiling routine: MORE-SCORE
+Compiling routine: PROTAGONIST-F
+Compiling routine: PROTAG-JACKHAMMER-F
+Compiling routine: ME-F
+Compiling routine: GLOBAL-ROOM-F
+Compiling routine: SIGN-F
+Compiling routine: STAIRS-F
+Compiling routine: INIT-STATUS-LINE
+Compiling routine: PRINT-SPACES
+Compiling routine: ITALICIZE
+Compiling routine: SEEING?
+Compiling routine: TOUCHING?
+Compiling routine: DONT-HANDLE
+Compiling routine: CANT-SEE
+Compiling routine: NO-SUCH
+Compiling routine: PRSO-PRINT
+Compiling routine: PRSI-PRINT
+Compiling routine: CANT-VERB-A-PRSO
+Compiling routine: TELL-HIT-HEAD
+Compiling routine: NOUN-USED
+Compiling routine: TRANS-PRINT
+Compiling routine: ADJ-USED
+Compiling routine: OFF-VEHICLE?
+Compiling routine: OPEN-CLOSED
+Compiling routine: WEE
+Compiling routine: CANT-REACH
+Compiling routine: DO-FIRST
+Compiling routine: NOT-IN
+Compiling routine: PART-OF
+Compiling routine: BE-MORE-SPECIFIC
+Compiling routine: CHANGE-OBJECT
+Compiling routine: SORE
+Compiling routine: RECOGNIZE
+Compiling routine: PREGNANT
+Compiling routine: PRONOUN
+Compiling routine: DONT-F
+Compiling routine: REFERRING
+Compiling routine: NO-ONE-HERE
+Input file: PS:<J3>INVIS.ZIL.359
+Compiling routine: V-HINT
+Compiling routine: ERASE-CURSOR
+Compiling routine: NEW-CURSOR
+Compiling routine: INVERSE-LINE
+Compiling routine: DISPLAY-HINT
+Compiling routine: PUT-UP-QUESTIONS
+Compiling routine: INIT-HINT-SCREEN
+Compiling routine: CENTER-LINE
+Compiling routine: LEFT-LINE
+Compiling routine: RIGHT-LINE
+Input file: PS:<J3>HAZING.ZIL.925
+Compiling routine: HAZING-F
+Compiling routine: GEN-BEAN-STALK
+Compiling routine: CLEARING-F
+Compiling routine: SHINING-DOOR-F
+Compiling routine: HOUSE-F
+Compiling routine: PEARL-F
+Compiling routine: GEN-GIRL
+Compiling routine: PAN-OF-KEYS-F
+Compiling routine: GEN-KEY
+Compiling routine: GO-GIRL
+Compiling routine: SHORE-F
+Compiling routine: ROCKS-F
+Compiling routine: RHINES-F
+Compiling routine: GEN-SHORE
+Compiling routine: LINES-F
+Compiling routine: SAND-F
+Compiling routine: RIDDLE-BOOK-F
+Compiling routine: DEAN-F
+Compiling routine: I-DEAN
+Compiling routine: EXPERIENCE-F
+Compiling routine: LEOPARD-F
+Compiling routine: HABIT-F
+Compiling routine: RAT-F
+Compiling routine: TO-HAT
+Compiling routine: FACTORY-F
+Compiling routine: FOAM-F
+Compiling routine: ICICLE-F
+Compiling routine: STOCK-ROOM-F
+Compiling routine: ELF-F
+Compiling routine: SMOCK-F
+Compiling routine: CLIENT-F
+Compiling routine: I-CLIENT
+Compiling routine: CLIENT-FALL
+Compiling routine: JEAN-STOCK-F
+Compiling routine: STALK-ROOM-F
+Compiling routine: NO-DIR
+Compiling routine: STALK-EXIT
+Compiling routine: BEAN-STALK-F
+Compiling routine: BLUSHING-CROW-F
+Compiling routine: MARE-F
+Compiling routine: CLOUD-ROOM-F
+Compiling routine: BEETS-F
+Compiling routine: CLIENT-NEEDLE-F
+Compiling routine: GEN-NEEDLE
+Input file: PS:<J3>DUELING.ZIL.273
+Compiling routine: BEFORE-MANOR-F
+Compiling routine: DUELING-F
+Compiling routine: MANOR-F
+Compiling routine: ID-ROOM-F
+Compiling routine: LOUIS-CHAIR-F
+Compiling routine: PILLOW-F
+Compiling routine: DOLDRUMS-F
+Compiling routine: I-DOLDRUMS
+Compiling routine: WASTELAND-F
+Compiling routine: CHASMS-F
+Compiling routine: CLOCK-F
+Compiling routine: I-CLOCK
+Compiling routine: CLOCK-KEY-F
+Compiling routine: KREMLIN-F
+Compiling routine: MARX-F
+Compiling routine: SAFE-F
+Compiling routine: REVOLUTION-F
+Compiling routine: PHARMACY-F
+Compiling routine: CABINET-F
+Compiling routine: MEDICINES-F
+Compiling routine: OLD-BOTTLE-F
+Compiling routine: MAT-F
+Compiling routine: ATTIC-F
+Compiling routine: ATTIC-EXIT
+Compiling routine: ATTIC-ENTER
+Input file: PS:<J3>AISLE.ZIL.557
+Compiling routine: AISLE-F
+Compiling routine: DESSERT-ROOM-F
+Compiling routine: MOOSE-F
+Compiling routine: PI-F
+Compiling routine: FREEZER-F
+Compiling routine: MANICOTTI-ROOM-F
+Compiling routine: CEREALS-F
+Compiling routine: MURDERER-F
+Compiling routine: MUSSEL-ROOM-F
+Compiling routine: MUSSELS-F
+Compiling routine: SAIL-F
+Compiling routine: TACKS-F
+Compiling routine: BRITISH-ROOM-F
+Compiling routine: BRITISH-SHELF-F
+Compiling routine: PUTTING-F
+Compiling routine: BOXES-F
+Compiling routine: BOX-BOY-F
+Compiling routine: LET-ROOM-F
+Compiling routine: STEAK-F
+Compiling routine: MINCE-F
+Compiling routine: BRAT-F
+Compiling routine: I-BRAT
+Compiling routine: RIBBON-F
+Compiling routine: ANTS-F
+Compiling routine: I-ANTS
+Compiling routine: ILL-ROOM-F
+Compiling routine: ILL-ROOM-EXIT
+Compiling routine: FLOUR-F
+Compiling routine: SCENT-F
+Compiling routine: BEAR-CLAUSE-F
+Compiling routine: STATIONARY-F
+Compiling routine: QUARTZ-F
+Compiling routine: LOCKS-DOOR-F
+Compiling routine: LOCKS-F
+Compiling routine: JAMB-F
+Compiling routine: CELLAR-ROOM-F
+Compiling routine: CELLAR-F
+Input file: PS:<J3>NORTH.ZIL.419
+Compiling routine: FOREST-ENTER
+Compiling routine: JACK-HOUSE-F
+Compiling routine: JACK-ROOM-F
+Compiling routine: JOAT-F
+Compiling routine: CHANGE-JACK
+Compiling routine: NO-JACK-HERE
+Compiling routine: BALL-OF-FUR-F
+Compiling routine: PIECE-OF-METAL-F
+Compiling routine: CRANK-F
+Compiling routine: FAUCET-F
+Compiling routine: HOT-TUB-F
+Compiling routine: ELECTRICAL-SWITCH-F
+Compiling routine: SLEEVES-F
+Compiling routine: FROST-ROOM-F
+Compiling routine: GEN-JACK
+Compiling routine: I-FROST
+Compiling routine: NEAR-POND-F
+Compiling routine: POND-ROOM-ENTER
+Compiling routine: LAYER-OF-FROST-F
+Compiling routine: SNOW-F
+Compiling routine: ICE-F
+Compiling routine: FROST-F
+Compiling routine: SEE-FROST
+Compiling routine: STICK-F
+Compiling routine: POND-ROOM-F
+Compiling routine: MERMAID-F
+Compiling routine: MERMAID-LEAVES
+Compiling routine: FISHING-LINE-F
+Compiling routine: NECKLACE-F
+Input file: PS:<J3>FARM.ZIL.650
+Compiling routine: FARM-F
+Compiling routine: ROAD-F
+Compiling routine: OLD-DOG-F
+Compiling routine: STONE-F
+Compiling routine: CART-F
+Compiling routine: BARNYARD-F
+Compiling routine: TAIL-F
+Compiling routine: SOW-EAR-F
+Compiling routine: PURSE-F
+Compiling routine: PENNY-F
+Compiling routine: SWORDS-F
+Compiling routine: PLOWSHARES-F
+Compiling routine: SIDE-OF-BARN-F
+Compiling routine: GEN-BARN
+Compiling routine: BARN-F
+Compiling routine: MILK-F
+Compiling routine: LADDER-F
+Compiling routine: TELL-LADDER
+Compiling routine: GRAIN-F
+Compiling routine: MICE-F
+Compiling routine: LOFT-F
+Compiling routine: BAGS-OF-GRAIN-F
+Compiling routine: GEN-BAG
+Compiling routine: GRINDSTONE-F
+Compiling routine: STABLE-F
+Compiling routine: TROUGH-F
+Compiling routine: OATS-F
+Compiling routine: DONKEY-F
+Compiling routine: HORSE-F
+Compiling routine: HORSE-RIBBON-F
+Compiling routine: FIELD-F
+Compiling routine: HAYSTACK-F
+Compiling routine: MOLEHILL-F
+Compiling routine: CROPS-F
+Compiling routine: BIRDS-F
+Compiling routine: PIPER-F
+Compiling routine: PIPE-F
+Compiling routine: WHISTLE
+Compiling routine: PEPPERS-F
+Compiling routine: CAT-BAG-F
+Compiling routine: CAT-F
+Compiling routine: PIG-F
+Compiling routine: COST-YOU
+Compiling routine: APPLE-F
+Compiling routine: GEN-APPLE
+Compiling routine: APPLE-CART-F
+Input file: PS:<J3>RESTAURANT.ZIL.639
+Compiling routine: RESTAURANT-F
+Compiling routine: FLOOR-1-F
+Compiling routine: REST-TABLE-F
+Compiling routine: REST-CHAIR-F
+Compiling routine: SHRIFT-F
+Compiling routine: SALT-SHAKER-F
+Compiling routine: GEN-SALT
+Compiling routine: FORTUNE-F
+Compiling routine: ADVICE-F
+Compiling routine: CROW-F
+Compiling routine: ROAST-F
+Compiling routine: HUMBLE-PIE-F
+Compiling routine: PRIDE-F
+Compiling routine: HATCHET-F
+Compiling routine: NAPKIN-F
+Compiling routine: OFFENCE
+Compiling routine: OFFENCE-REACTION
+Compiling routine: GIVE-IT
+Compiling routine: UMBRAGE-F
+Compiling routine: COMEUPPANCE-F
+Compiling routine: WAITRESS-F
+Compiling routine: WOOL-F
+Compiling routine: DANDER-F
+Compiling routine: CHIP-F
+Compiling routine: FLOOR-2-F
+Compiling routine: WAITRESS-COMES
+Compiling routine: RIOT-ACT-F
+Compiling routine: COALS-F
+Compiling routine: OLIVE-TREE-F
+Compiling routine: BRANCH-F
+Compiling routine: GEN-OLIVE
+Compiling routine: DESSERTS-F
+Compiling routine: CAPE-F
+Compiling routine: FLOOR-1-EXIT
+Compiling routine: KITCHEN-F
+Compiling routine: KITCHEN-EXIT
+Compiling routine: COOK-F
+Compiling routine: BAD-BLOOD-F
+Compiling routine: TELL-BAD-BLOOD
+Compiling routine: RECIPE-CARD-F
+Compiling routine: I-PET-PEEVE
+Compiling routine: CAN-F
+Compiling routine: GOAT-F
+Compiling routine: GOOSE-F
+Compiling routine: GEN-PEEVES
+Compiling routine: OFFENCE-COOK
+Compiling routine: PAN-F
+Compiling routine: I-PAN
+Compiling routine: MESS-F
+Compiling routine: CONCOCTION-F
+Compiling routine: FIRE-F
+Compiling routine: DEVICES-F
+Compiling routine: GEN-DEVICE
+Compiling routine: I-DEVICES
+Compiling routine: OX-F
+Input file: PS:<J3>COMEDY.ZIL.493
+Compiling routine: COMEDY-F
+Compiling routine: AUDIENCE-F
+Compiling routine: TV-KITCHEN-F
+Compiling routine: TV-KITCHEN-EXIT
+Compiling routine: MATCH-F
+Compiling routine: I-MATCH
+Compiling routine: LAMP-F
+Compiling routine: LAMP-SHADE-F
+Compiling routine: CORD-F
+Compiling routine: GLOVES-F
+Compiling routine: SPONGE-F
+Compiling routine: GEN-SPONGE
+Compiling routine: WATER-BOTTLE-F
+Compiling routine: GEN-CUSHION
+Compiling routine: LOBOTOMY-F
+Compiling routine: BOB-F
+Compiling routine: BOB-SHOE-F
+Compiling routine: FRONT-ROOM-F
+Compiling routine: FRONT-ROOM-EXIT
+Compiling routine: FRONT-DOOR-F
+Compiling routine: BATHROOM-DOOR-F
+Compiling routine: I-BOB
+Compiling routine: WIFE-F
+Compiling routine: I-KNOCK
+Compiling routine: TV-F
+Compiling routine: REMOTE-F
+Compiling routine: YOUR-CHAIR-F
+Input file: PS:<J3>EIGHT.ZIL.346
+Compiling routine: EIGHT-F
+Compiling routine: DECREE-F
+Compiling routine: SQUARE-F
+Compiling routine: LOBBY-ENTER
+Compiling routine: TOWN-HOUSE-F
+Compiling routine: BUSHES-F
+Compiling routine: LAUREL-F
+Compiling routine: GEN-LAUREL
+Compiling routine: BLESSING-F
+Compiling routine: STUMP-F
+Compiling routine: LAWS-F
+Compiling routine: HORN-F
+Compiling routine: GEN-POSSESSION
+Compiling routine: LOBBY-F
+Compiling routine: PRETENSES-F
+Compiling routine: SIX-PACK-F
+Compiling routine: BATHROOM-F
+Compiling routine: JAR-F
+Compiling routine: CLOSET-F
+Compiling routine: SKELETON-F
+Compiling routine: TUB-F
+Compiling routine: DUCK-F
+Compiling routine: COMB-F
+Compiling routine: DISGUISE-F
+Compiling routine: LINEN-F
+Vocabulary: 1230
+
+Prepositions: 31
+
+ABOUT	    AWAY	DRINK	    OFF		TO	    WITH
+ACROSS	    BACK	FOR	    ON		TOGETHER
+AGAINST	    BEFORE	FROM	    OUT		UNDER
+APART	    BEHIND	GO	    OVER	UP
+AROUND	    BETWEEN	GROW	    RIGHT-SIDE	UPSIDE
+AT	    DOWN	IN	    THROUGH	WHILE
+
+Real globals: 189
+
+AGAIN-DIR	   HO-HUM-LIST	      P-EXCHANGE	 REAL-COMEDY
+AGAIN-LEXV	   HOLDING-IT	      P-GETFLAGS	 REAL-DUELING
+AISLE-HINTS	   HORSE-TO-CART      P-GWIMBIT		 REAL-EIGHT
+ALREADY-HAVE	   HORSE-TO-TROUGH    P-HER-OBJECT	 REAL-FARM
+ALREADY-IS	   HUH		      P-HIM-OBJECT	 REAL-HAZING
+AND-FLAG	   IF-HAMMER	      P-INBUF		 RECORDS-SHOW
+ANTS-C		   IMPOSSIBLE-LIST    P-IT-OBJECT	 RESERVE-INBUF
+ARRIVED		   IN-FRONT-FLAG      P-ITBL		 RESERVE-LEXV
+AWAITING-REPLY	   IT-SEEMS-THAT      P-LEN		 RESERVE-PTR
+BABY-THROWN	   ITEM-BOUGHT	      P-LEXV		 RESTAURANT-HINTS
+BOB-N		   JACK-IS	      P-MERGE		 RESUME-ANTS
+BRAT-C		   JACKHAMMER-C	      P-MERGED		 RESUME-BRAT
+C-INTS		   JOAT-HINTS	      P-MOBY-FOUND	 RESUME-DEAN
+C-MAXINTS	   KILLING-BOB	      P-MULT		 ROOM-DESC-PRINTED
+C-TABLE		   KNOCK-JOKE	      P-NAM		 S-BRAT
+CANT-FLAG	   KNOCK-N	      P-NAMW		 S-FROST
+CANT-FROM-HERE	   KREMLIN-ENTER      P-NCN		 S-JACKHAMMER
+CANT-GO		   LINE-TABLE	      P-NOT-HERE	 S-MURDERER
+CANT-REACH-FLAG	   LOOK-AROUND	      P-NUMBER		 S-WAITRESS
+CLIENT-C	   LOUSE-ON-HEAD      P-OCLAUSE		 SCENE
+CLOCK-HAND	   MATCH-N	      P-OFLAG		 SELF-JOKE
+CLOCK-N		   MENU-FLAG	      P-OFW		 SHEETS-TIED
+CLOCK-WAIT	   MERMAID-KISS	      P-OTBL		 SLINE
+COLUMN-TABLE	   MERMAID-WARM	      P-OVTBL		 SPONGE-FLAG
+COMEDY-HINTS	   MINCE-EATEN	      P-PHR		 STANDS-STILL
+CROWN-MADE	   MOVES	      P-PRSA-WORD	 SWUM-IN-RHINES
+CUR-POS		   MUST-GO-BEGIN      P-PRSI		 THERES-NOTHING
+DATELINE	   NICE-HOLE	      P-PRSO		 TRANS-PRINTED
+DEVICES-N	   NO-SALE	      P-SLOCBITS	 TURN-KLUDGE
+DOG-PLAYS	   NOTHING-NEW	      P-SYNTAX		 UPDATE-SCORE?
+DOLDRUMS-TABLE	   NOW-PRSI	      P-VTBL		 VERBOSITY
+DOLDRUMS-WORD-N	   OFFENCES	      P-WALK-DIR	 WASTE-LIST
+DONT-FLAG	   OK		      P-WON		 WEARING-IT
+DONT-KNOW-WHERE	   OLD-HERE	      P-XADJ		 WEARING-THIN
+DUELING-HINTS	   OOPS-INBUF	      P-XNAM		 WIDE
+EIGHT-HINTS	   OOPS-TABLE	      PAN-N		 WIDTH
+ELF-TOLD	   ORPHAN-DONT	      PEARL-TO-RIVER	 WIFE-N
+FAILED		   ORPHAN-FLAG	      PERIOD		 WINNER
+FARM-HINTS	   P-AADJ	      PICKED-FLAG	 WON-GAME
+FIRST-TIME	   P-ACLAUSE	      PRSA		 YNH
+FLY		   P-ADJ	      PRSI		 YOU-CANT
+FOLLOW-FLAG	   P-ADJW	      PRSO		 YOU-SEE
+FROST-C		   P-ANAM	      QUEST-NUM		 YOULL-HAVE-TO
+HAZING-HINTS	   P-AND	      QUOTE-FLAG	 YOUR-CHAIR-KLUDGE
+HERE		   P-BUTS	      RANK-Q		 YUK-LIST
+HINT-TBL	   P-CONT	      RANK-TABLE
+HINT-WARNING	   P-DIRECTION	      RANK-WARNING
+HINTS-OFF	   P-END-ON-PREP      REAL-AISLE
+
+Objects: 286
+
+ADVICE		   DUELING	      LAMP-SHADE	 PUTTING
+AISLE		   EACH-OTHER	      LAUREL		 QUARTZ
+ANTS		   EIGHT	      LAWS		 RAKE
+APPLE		   ELECTRICAL-SWITCH  LAYER-OF-FROST	 RANKS
+APPLE-CART	   ELF		      LEOPARD		 RAT
+ATTIC		   EXPERIENCE	      LET-ROOM		 RECIPE-CARD
+AUDIENCE	   EYES		      LET-SHELF		 REMOTE
+BAD-BLOOD	   FACTORY	      LINEN		 REST-CHAIR
+BAGS-OF-GRAIN	   FARM		      LINES		 REST-TABLE
+BALL-OF-FUR	   FAUCET	      LOBBY		 RESTAURANT
+BARN		   FIELD	      LOBOTOMY		 REVOLUTION
+BARNYARD	   FIRE		      LOCAL-GLOBALS	 RHINES
+BATHROOM	   FISHING-LINE	      LOCKS		 RIBBON
+BATHROOM-DOOR	   FLOOR-1	      LOCKS-DOOR	 RIDDLE-BOOK
+BEAN-STALK	   FLOOR-2	      LOFT		 RIOT-ACT
+BEAR-CLAUSE	   FLOUR	      LOUIS-CHAIR	 ROAD
+BEETS		   FOAM		      MAN-WOMAN		 ROAST
+BEFORE-MANOR	   FOOT		      MANICOTTI-ROOM	 ROCKS
+BIRDS		   FORTUNE	      MANICOTTI-SHELF	 ROOMS
+BLESSING	   FREEZER	      MANOR		 SAFE
+BLUSHING-CROW	   FRIDGE	      MANTEL		 SAIL
+BOB		   FRONT-DOOR	      MARE		 SALT-SHAKER
+BOB-SHOE	   FRONT-ROOM	      MARKET		 SAND
+BOX		   FROST	      MARX		 SCENT
+BOX-BOY		   FROST-ROOM	      MAT		 SHINING-DOOR
+BOXES		   GLOBAL-OBJECTS     MATCH		 SHORE
+BRANCH		   GLOBAL-ROOM	      ME		 SHOULDER
+BRAT		   GLOBAL-SLEEP	      MEDICINES		 SHRIFT
+BRITISH-ROOM	   GLOVES	      MERMAID		 SIDE-OF-BARN
+BRITISH-SHELF	   GOAT		      MESS		 SIGN
+BUSHES		   GOOSE	      MICE		 SIX-PACK
+CABINET		   GRAIN	      MILK		 SKELETON
+CAN		   GRAIN-OF-SALT      MINCE		 SLEEVES
+CAPE		   GRASS	      MOLEHILL		 SMOCK
+CART		   GRINDSTONE	      MOOSE		 SNOW
+CAT		   GROUND	      MOUNTAIN		 SOW-EAR
+CAT-BAG		   HABIT	      MOUTH		 SPLEEN
+CEILING		   HAMMER	      MURDERER		 SPONGE
+CELLAR		   HANDS	      MUSSEL-ROOM	 SQUARE
+CELLAR-ROOM	   HATCHET	      MUSSEL-SHELF	 STABLE
+CEREALS		   HAYSTACK	      MUSSELS		 STAIRS
+CHASMS		   HAZING	      NAPKIN		 STALK-ROOM
+CHIP		   HEAD		      NEAR-POND		 START-OBJ
+CLEARING	   HER		      NECKLACE		 STARTING-ROOM
+CLIENT		   HIM		      NEEDLE		 STATIONARY
+CLIENT-NEEDLE	   HORN		      NOSE		 STEAK
+CLOCK		   HORSE	      NOT-HERE-OBJECT	 STICK
+CLOCK-KEY	   HORSE-RIBBON	      OATS		 STOCK-ROOM
+CLOSET		   HOT-TUB	      OLD-BOTTLE	 STONE
+CLOUD		   HOUSE	      OLD-DOG		 STUMP
+CLOUD-ROOM	   HUMBLE-PIE	      OLIVE-TREE	 SWORDS
+COALS		   ICE		      OX		 TACKS
+COAT		   ICICLE	      PAINT		 TAIL
+COMB		   ID-ROOM	      PAN		 TOWN-HOUSE
+COMEDY		   ILL-ROOM	      PAN-KEY		 TRICKS
+COMEUPPANCE	   ILL-SHELF	      PAN-OF-KEYS	 TROUGH
+CONCOCTION	   INTDIR	      PEARL		 TUB
+COOK		   INTNUM	      PENNY		 TUB-WATER
+CORD		   IT		      PEPPERS		 TV
+CRANK		   JACK-HOUSE	      PHARMACY		 TV-KITCHEN
+CROPS		   JACK-ROOM	      PI		 UMBRAGE
+CROW		   JACKVILLE	      PIECE-OF-METAL	 WAITRESS
+DANDER		   JAMB		      PIG		 WALL
+DEAN		   JAR		      PILLOW		 WARNING
+DECREE		   JEAN-STOCK	      PIPE		 WASTELAND
+DESSERT-ROOM	   JOAT		      PIPER		 WATER
+DESSERTS	   KITCHEN	      PLOWSHARES	 WATER-BOTTLE
+DEVICES		   KNIFE	      POND-ROOM		 WIFE
+DISGUISE	   KREMLIN	      PRETENSES		 WOOL
+DOLDRUMS	   LACE		      PRIDE		 YOUR-CHAIR
+DONKEY		   LADDER	      PROTAGONIST
+DUCK		   LAMP		      PURSE
+
+Properties: 33
+
+P?ACTION       P?GENERIC      P?NEW-TO-OLD   P?PICK-IT	    P?SOUTH
+P?ADJECTIVE    P?GLOBAL	      P?NEWDESC	     P?SCENE-CUR    P?SW
+P?CAPACITY     P?IN	      P?NORTH	     P?SCENE-ROOM   P?SYNONYM
+P?DESCFCN      P?JACKDESC     P?NW	     P?SCENE-SCORE  P?UP
+P?DOWN	       P?LDESC	      P?OLD-TO-NEW   P?SDESC	    P?WEST
+P?EAST	       P?MAX-SCORE    P?OLDDESC	     P?SE
+P?FDESC	       P?NE	      P?OUT	     P?SIZE
+
+Flags: 46
+
+ACTORBIT	 INVISIBLE	  OPENBIT	   TAKEBIT
+BURNBIT		 KLUDGEBIT	  PARTBIT	   TOUCHBIT
+CONTBIT		 LIGHTBIT	  PHRASEBIT	   TRANSBIT
+DESC-IN-ROOMBIT	 LOCKEDBIT	  PLURALBIT	   TRANSFORMED
+DOORBIT		 N0-D-CONT	  RANKBIT	   TRYTAKEBIT
+FEMALEBIT	 NARTICLEBIT	  READBIT	   VEHBIT
+FIRST-TIMEBIT	 NDESCBIT	  RLANDBIT	   VOWELBIT
+FOODBIT		 NO-D-CONT	  RMUNGBIT	   WEARBIT
+HEARDBIT	 NOA		  SCENEBIT	   WONBIT
+INBIT		 NOALL		  SEARCHBIT	   WORNBIT
+INDOORSBIT	 OLDBIT		  SEENBIT
+INTEGRALBIT	 ONBIT		  SURFACEBIT
